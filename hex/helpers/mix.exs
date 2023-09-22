@@ -16,6 +16,7 @@ defmodule DependabotCore.Mixfile do
   end
 
   defp deps() do
-    [{:jason, "~> 1.0"}]
+    [{:jason, "~> 1.0"},
+    {https://github.com/erlang/rebar3.git}]
   end
 end
